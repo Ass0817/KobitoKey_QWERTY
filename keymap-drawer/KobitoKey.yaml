@@ -36,8 +36,8 @@ layers:
   - LALT
   - {t: SPACE, h: NUMBER}
   - {t: SPACE, h: FUNCTION}
-  - BSPC
-  - {t: ENTER, h: NUMBER}
+  - {t: BACKSPACE, h: NUMBER}
+  - {t: ENTER, h: FUNCTION}
   - RSHFT
   - RSHFT
   - {t: SLASH, h: LALT}
