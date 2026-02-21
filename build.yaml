@@ -1,11 +1,11 @@
-include:
- - board: seeeduino_xiao_ble
-   shield: KobitoKey_left rgbled_widget
-   snippet: zmk-usb-logging studio-rpc-usb-uart
+- name: Zip firmware
+  run: |
+    mkdir artifacts
+    cp build/*/zephyr/*.uf2 artifacts/
+    zip -r firmware.zip artifacts
 
- - board: seeeduino_xiao_ble
-   shield: KobitoKey_right rgbled_widget
-   snippet: zmk-usb-logging
-
- - board: seeeduino_xiao_ble
-   shield: settings_reset
+- name: Upload firmware
+  uses: actions/upload-artifact@v4
+  with:
+    name: firmware
+    path: firmware.zip
