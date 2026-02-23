@@ -28,6 +28,7 @@
 #define JP_LBRACE       RIGHT_BRACE       // {
 #define JP_RBRACE       PIPE              // }
 
+
 / {
     behaviors {
         // Keep the original key_press behavior for ZMK core components
