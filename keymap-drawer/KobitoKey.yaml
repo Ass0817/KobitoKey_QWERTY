@@ -22,7 +22,7 @@ layers:
   - L
   - SEMI
   - Z
-  - X
+  - {t: X, h: BT}
   - {t: C, h: AMPERSAND}
   - {t: V, h: ASTERISK}
   - {t: B, h: LEFT PARENTHESIS}
@@ -34,9 +34,9 @@ layers:
   - {t: TAB, h: LEFT SHIFT}
   - LEFT ALT
   - LEFT GUI
-  - {t: SPACE, h: NUMBER}
+  - {t: SPACE, h: FUNCTION}
   - LCTRL
-  - {t: BACKSPACE, h: FUNCTION}
+  - BACKSPACE
   - {t: ENTER, h: NUMBER}
   - RCTRL
   - RSHFT
@@ -75,10 +75,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
-  - {type: held}
+  - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -116,9 +116,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: DEL, type: held}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -186,7 +186,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
