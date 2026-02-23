@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: BT}
+  - P
   - A
   - S
   - D
@@ -21,19 +21,19 @@ layers:
   - K
   - L
   - SEMI
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
   - B
-  - N
+  - {t: N, h: BT}
   - M
   - COMMA
   - DOT
   - APOS
-  - {t: ESCAPE, h: LCTRL}
-  - LWIN
-  - LALT
+  - {t: TAB, h: LEFT SHIFT}
+  - LEFT ALT
+  - LEFT GUI
   - {t: SPACE, h: NUMBER}
   - {t: SPACE, h: FUNCTION}
   - {t: BACKSPACE, h: NUMBER}
@@ -174,7 +174,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,7 +190,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
