@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: DOUBLE QUOTES}
+  - {t: A, h: LEFT BRACKET}
   - S
   - D
   - F
@@ -36,8 +36,8 @@ layers:
   - LEFT GUI
   - {t: SPACE, h: NUMBER}
   - LCTRL
-  - {t: BACKSPACE, h: NUMBER}
-  - {t: ENTER, h: FUNCTION}
+  - {t: BACKSPACE, h: FUNCTION}
+  - {t: ENTER, h: NUMBER}
   - RCTRL
   - RSHFT
   - {t: SLASH, h: LALT}
@@ -118,8 +118,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
-  - {type: held}
+  - {t: DEL, type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
