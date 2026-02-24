@@ -67,8 +67,8 @@ layers:
   - {t: '7', h: AMPERSAND}
   - {t: '8', h: ASTERISK}
   - {t: '9', h: LEFT PARENTHESIS}
-  - ASTRK
-  - SLASH
+  - RIGHT BRACKET
+  - LBKT
   - SEMI
   - SQT
   - {t: ▽, type: trans}
