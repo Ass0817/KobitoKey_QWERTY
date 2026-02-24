@@ -52,7 +52,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - LEFT BRACKET
   - {t: ▽, type: trans}
   - {t: '4', h: DOLLAR}
   - {t: '5', h: PERCENT}
