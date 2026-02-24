@@ -3,19 +3,19 @@ layers:
   default:
   - Q
   - W
-  - {t: E, h: '!'}
-  - {t: R, h: AT}
-  - {t: T, h: HASH}
+  - E
+  - R
+  - T
   - Y
   - U
   - I
   - O
   - P
-  - {t: A, h: LEFT BRACKET}
+  - A
   - S
-  - {t: D, h: DOLLAR}
-  - {t: F, h: PERCENT}
-  - {t: G, h: CARET}
+  - D
+  - F
+  - G
   - H
   - J
   - K
@@ -23,11 +23,11 @@ layers:
   - SEMI
   - Z
   - {t: X, h: BT}
-  - {t: C, h: AMPERSAND}
-  - {t: V, h: ASTERISK}
-  - {t: B, h: LEFT PARENTHESIS}
-  - {t: N, h: RIGHT BRACKET}
-  - {t: M, h: LEFT BRACKET}
+  - C
+  - V
+  - B
+  - N
+  - M
   - COMMA
   - DOT
   - APOS
