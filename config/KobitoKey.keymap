@@ -85,9 +85,9 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&kp JP_CARET  &kp JP_LBRACKET      &kp JP_DQUOTE  &kp JP_RBRACKET  &kp JP_AT  &kp JP_AMPERSAND   &kp   &kp JP_PLUS  &kp JP_ASTERISK  &kp JP_COLON
-&kp JP_YEN  &kp JP_LPAREN      &kp JP_QUOTE     &kp JP_RPAREN       &kp HASH          &kp    &kp JP_EQUAL  &kp   &kp   &kp
-&kp JP_TILDE    &kp JP_LBRACE  &kp JP_BACKQUOTE    &kp JP_RBRACE   &kp DOLLAR        &kp JP_PIPE   &kp   &kp JP_UNDERSCORE &kp &kp
+&kp JP_CARET  &kp JP_LBRACKET      &kp JP_DQUOTE  &kp JP_RBRACKET  &kp JP_AT  &kp JP_AMPERSAND   &none   &kp JP_PLUS  &kp JP_ASTERISK  &kp JP_COLON
+&kp JP_YEN  &kp JP_LPAREN      &kp JP_QUOTE     &kp JP_RPAREN       &kp HASH          &none    &kp JP_EQUAL  &none   &none   &none
+&kp JP_TILDE    &kp JP_LBRACE  &kp JP_BACKQUOTE    &kp JP_RBRACE   &kp DOLLAR        &kp JP_PIPE   &none   &kp JP_UNDERSCORE &none &none
 &trans     &trans        &trans       &trans         &trans            &kp DEL  &trans  &trans  &trans  &trans
             >;
         };
