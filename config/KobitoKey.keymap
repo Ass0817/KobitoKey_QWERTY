@@ -54,6 +54,16 @@
             key-positions = <10 11>;
             bindings = <&kp TAB>;
         };
+
+        combo_click1 {
+            bindings = <&mkp MB1>;
+            key-positions = <5 6>;
+        };
+
+        combo_click2 {
+            bindings = <&mkp MB2>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
